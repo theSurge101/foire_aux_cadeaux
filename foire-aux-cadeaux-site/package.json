@@ -42,17 +42,17 @@
   ],
   "author": {
     "name": "theSurge101",
-    "email": "infos@anaisconcept.biz",
-    "url": "https://foireauxcadeaux.tg"
+    "email": "alexandre.tossou@gmail.com",
+    "url": "https://github.com/theSurge101/foire_aux_cadeaux"
   },
   "license": "MIT",
   "homepage": "https://foireauxcadeaux.anaisconcept.biz",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/events-togo/foire-aux-cadeaux.git"
+    "url": "git+https://github.com/theSurge101/foire_aux_cadeaux"
   },
   "bugs": {
-    "url": "https://github.com/events-togo/foire-aux-cadeaux/issues"
+    "url": "https://github.com/theSurge101/foire_aux_cadeaux/issues"
   },
   "engines": {
     "node": ">=16.0.0",
