@@ -296,10 +296,12 @@ const FoireAuxCadeaux = () => {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="bg-gray-900 hover:bg-gray-800 text-white px-8 py-4 rounded-lg font-semibold transition-all flex items-center gap-2 justify-center">
+              <a 
+                href='https://marketing.anaisconcept.biz/hubfs/FAC/Guides_Brochures/Exposant_Visuel_Guide_V1.png'
+                className="bg-gray-900 hover:bg-gray-800 text-white px-8 py-4 rounded-lg font-semibold transition-all flex items-center gap-2 justify-center">
                 <Download size={18} />
                 Guide exposant
-              </button>
+              </a>
               <a
                 href="https://marketing.anaisconcept.biz/participez-à-la-foire-aux-cadeaux-de-lomé-2025-anaïs-concept"
                 target="_blank"
@@ -484,7 +486,7 @@ const FoireAuxCadeaux = () => {
       </section>
 
       {/* Newsletter */}
-      <section id="newsletter" className="py-16 px-4 bg-gray-900 text-white">
+{/*       <section id="newsletter" className="py-16 px-4 bg-gray-900 text-white">
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
             Restez informés !
@@ -524,6 +526,27 @@ const FoireAuxCadeaux = () => {
               S'inscrire à la newsletter
             </button>
           </div>
+        </div>
+      </section> */}
+            <section id="newsletter" className="py-16 px-4 bg-gray-900 text-white">
+        <div className="max-w-2xl mx-auto text-center">
+          <h2 className="text-3xl md:text-4xl font-bold mb-6">
+            Restez informés !
+          </h2>
+          <p className="text-lg text-gray-300 mb-12">
+            Recevez toutes les actualités de la foire et les dernières nouveautés de nos exposants.
+          </p>
+
+            <div className="bg-white/5 rounded-2xl p-8">
+            <a
+              href="https://whatsapp.com/channel/0029Vb6GoQ67T8bSvwi2zt3E"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full inline-block bg-white text-gray-900 hover:bg-gray-100 py-4 rounded-lg font-semibold transition-all transform hover:scale-105 text-center"
+            >
+              La chaîne WhatsApp
+            </a>
+            </div>
         </div>
       </section>
 
