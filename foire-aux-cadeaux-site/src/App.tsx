@@ -5,10 +5,10 @@ const FoireAuxCadeaux = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activeTestimonial, setActiveTestimonial] = useState(0);
   const [activeGalleryImage, setActiveGalleryImage] = useState(0);
-  const [newsletterForm, setNewsletterForm] = useState({
+ /*  const [newsletterForm, setNewsletterForm] = useState({
     email: '',
     whatsapp: false
-  });
+  }); */
 
   const testimonials = [
     { 
