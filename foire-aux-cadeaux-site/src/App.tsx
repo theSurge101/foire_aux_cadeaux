@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { Calendar, MapPin, Clock, Users, Gift, Heart, ShoppingBag, Mic, Star, ChevronRight, Download, Phone, Mail, Instagram, Facebook, MessageCircle, Camera, Trophy, Zap, Shield } from 'lucide-react';
+import { useState, useEffect } from 'react';
+import { Calendar, MapPin, Clock, Users, Gift, Heart, ShoppingBag, ChevronRight, Download, Phone, Mail, Instagram, Facebook, MessageCircle, Trophy, Zap, Shield } from 'lucide-react';
 
 const FoireAuxCadeaux = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -55,7 +55,7 @@ const FoireAuxCadeaux = () => {
     return () => clearInterval(timer);
   }, []);
 
-  const handleNewsletterSubmit = (e) => {
+/*   const handleNewsletterSubmit = (e) => {
     e.preventDefault();
     if (!newsletterForm.email.trim()) {
       alert('Veuillez entrer votre adresse email.');
@@ -63,9 +63,9 @@ const FoireAuxCadeaux = () => {
     }
     alert(`Inscription confirmée ! ${newsletterForm.whatsapp ? 'Vous recevrez aussi nos actus sur WhatsApp.' : ''}`);
     setNewsletterForm({ email: '', whatsapp: false });
-  };
+  }; */
 
-  const scrollToSection = (sectionId) => {
+  const scrollToSection = (sectionId: string) => {
     document.getElementById(sectionId)?.scrollIntoView({ behavior: 'smooth' });
     setIsMenuOpen(false);
   };
