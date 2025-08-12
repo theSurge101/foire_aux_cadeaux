@@ -392,7 +392,7 @@ const FoireAuxCadeaux = () => {
 
           <div className="relative">
             <div className="bg-white rounded-2xl p-8 shadow-sm">
-              <div className="flex items-center mb-6">
+{/*               <div className="flex items-center mb-6">
                 <img 
                   src={testimonials[activeTestimonial].avatar} 
                   alt={testimonials[activeTestimonial].name}
@@ -402,7 +402,7 @@ const FoireAuxCadeaux = () => {
                   <p className="font-semibold text-gray-900">{testimonials[activeTestimonial].name}</p>
                   <p className="text-gray-600 text-sm">{testimonials[activeTestimonial].role}</p>
                 </div>
-              </div>
+              </div> */}
               <p className="text-lg text-gray-700 italic">"{testimonials[activeTestimonial].content}"</p>
             </div>
 
@@ -562,9 +562,15 @@ const FoireAuxCadeaux = () => {
                 Le rendez-vous shopping incontournable de Lomé. Découvrez, partagez, célébrez !
               </p>
               <div className="flex space-x-4">
-                <Instagram className="text-gray-400 hover:text-gray-600 cursor-pointer transition-colors" size={20} />
-                <Facebook className="text-gray-400 hover:text-gray-600 cursor-pointer transition-colors" size={20} />
-                <MessageCircle className="text-gray-400 hover:text-gray-600 cursor-pointer transition-colors" size={20} />
+                <a href="https://www.instagram.com/foireauxcadeaux/" target="_blank" rel="noopener noreferrer">
+                  <Instagram className="text-gray-400 hover:text-gray-600 cursor-pointer transition-colors" size={20} />
+                </a>
+                <a href="https://www.facebook.com/LaFoireAuxCadeaux/?locale=fr_FR" target="_blank" rel="noopener noreferrer">
+                  <Facebook className="text-gray-400 hover:text-gray-600 cursor-pointer transition-colors" size={20} />
+                </a>
+                <a href="https://wa.me/22890123148?text=Bonjour, j\'aimerais avoir plus d\'informations sur la Foire Aux Cadeaux" target="_blank" rel="noopener noreferrer">
+                  <MessageCircle className="text-gray-400 hover:text-gray-600 cursor-pointer transition-colors" size={20} />
+                </a>
               </div>
             </div>
 
