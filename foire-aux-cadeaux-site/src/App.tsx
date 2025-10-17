@@ -144,7 +144,7 @@ const FoireAuxCadeaux = () => {
               <div className="flex flex-col sm:flex-row gap-3 justify-center lg:justify-start mb-8">
                 <div className="flex items-center gap-2 text-gray-700 bg-white px-4 py-2 rounded-lg shadow-sm">
                   <Calendar size={18} />
-                  <span className="font-medium">12-14 Décembre 2025</span>
+                  <span className="font-medium"> 2025</span>
                 </div>
                 <div className="flex items-center gap-2 text-gray-700 bg-white px-4 py-2 rounded-lg shadow-sm">
                   <MapPin size={18} />
