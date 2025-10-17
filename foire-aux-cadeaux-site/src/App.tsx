@@ -144,7 +144,7 @@ const FoireAuxCadeaux = () => {
               <div className="flex flex-col sm:flex-row gap-3 justify-center lg:justify-start mb-8">
                 <div className="flex items-center gap-2 text-gray-700 bg-white px-4 py-2 rounded-lg shadow-sm">
                   <Calendar size={18} />
-                  <span className="font-medium"> 2025</span>
+                  <span className="font-medium"> 19-21 Décembre 2025</span>
                 </div>
                 <div className="flex items-center gap-2 text-gray-700 bg-white px-4 py-2 rounded-lg shadow-sm">
                   <MapPin size={18} />
@@ -444,7 +444,7 @@ const FoireAuxCadeaux = () => {
                 <Calendar className="text-gray-700" size={24} />
               </div>
               <h3 className="font-semibold mb-2 text-gray-900">Dates</h3>
-              <p className="text-gray-600 text-sm">Vendredi 12 Décembre<br/>Samedi 13 Décembre<br/>Dimanche 14 Décembre 2025</p>
+              <p className="text-gray-600 text-sm">Vendredi 19 Décembre<br/>Samedi 20 Décembre<br/>Dimanche 21 Décembre 2025</p>
             </div>
 
             <div className="text-center">
